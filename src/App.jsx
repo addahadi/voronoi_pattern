@@ -11,7 +11,7 @@ function App() {
       let p = seeds[i];
       let v = Velo[i];;
       ctx.fillStyle = "white";
-     // ctx.fillRect(seeds[i].x , seeds[i].y,3,3)
+
   
       p.add(v);
       if (p.x > 600 || p.x < 0) {
